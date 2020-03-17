@@ -6,7 +6,7 @@ constructor(props){
 
 render() {
     return (
-       <div className="text-primary">Nav</div>
+       <div className="w3-padding w3-block w3-border-bottom w3-border-teal">Nav</div>
     );
 }
 
