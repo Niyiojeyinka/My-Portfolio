@@ -10,4 +10,5 @@
 <li>REACT</li>
 <li>BOOTSRAP</li>
 <li>W3.CSS</li>
+<li>Google Charts</li>
 </ul>
