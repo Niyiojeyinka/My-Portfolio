@@ -6,7 +6,7 @@ constructor(props){
 
 render() {
     return (
-       <div>Common</div>
+       <div className="text-primary">Common</div>
     );
 }
 

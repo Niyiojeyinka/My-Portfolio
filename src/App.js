@@ -1,5 +1,5 @@
 import React from 'react';
-import Common from './Common';
+import Common from './screens/common/Index';
 function App() {
   return (
     <Common/>
