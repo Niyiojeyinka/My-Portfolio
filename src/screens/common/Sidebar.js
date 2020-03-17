@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+
 class Sidebar extends Component {
 constructor(props){
     super(props);
@@ -7,7 +8,7 @@ constructor(props){
 render() {
     return (
        <div className="p-5 display-3">
-           <span style={{color:"white"}} className="lead font-weight-bolder text-xlarge">Olaniyi Philip Ojeyinka</span>
+           <span className="w3-text-white w3-jumbo">Olaniyi Philip Ojeyinka</span>
        </div>
     );
 }

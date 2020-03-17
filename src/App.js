@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Sidebar from './screens/common/Sidebar';
 import Home from './screens/home/Index';
-
+import "./styles/w3.css";
 class App extends Component {
 constructor(props){
     super(props);
