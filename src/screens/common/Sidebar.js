@@ -6,8 +6,8 @@ constructor(props){
 
 render() {
     return (
-       <div className="p-5">
-           <span style={{color:"white"}}>Olaniyi Philip Ojeyinka</span>
+       <div className="p-5 display-3">
+           <span style={{color:"white"}} className="lead font-weight-bolder text-xlarge">Olaniyi Philip Ojeyinka</span>
        </div>
     );
 }
