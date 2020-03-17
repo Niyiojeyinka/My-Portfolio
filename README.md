@@ -2,7 +2,7 @@
 
 
 
-## Stacks 7 Libraries
+## Stacks & Libraries
 <ul>
 <li>HTML</li>
 <li>CSS</li>
