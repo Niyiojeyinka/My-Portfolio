@@ -9,9 +9,8 @@ constructor(props){
 
 render() {
 
-  let windowStyle = {height:"100vh"};
     return (
-      <div className='row' style={windowStyle}>
+      <div className='row min-vh-100'>
         <div className='col-sm-4 col-md-4 col-lg-3 col-xl-3 bg-info'>
 
         <Sidebar/>
