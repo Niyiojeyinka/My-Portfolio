@@ -6,7 +6,13 @@ constructor(props){
 
 render() {
     return (
-       <div className="w3-padding w3-block w3-border-bottom w3-border-teal">Nav</div>
+       <div className="w3-border-bottom w3-border-teal w3-padding-xxlarge">
+          <span className="w3-margin"> Contact me</span>
+           <span className="w3-margin">Articles</span>
+           <span className="w3-margin">Resume</span>
+           <span className="w3-margin ">Portfolio</span>
+          
+       </div>
     );
 }
 

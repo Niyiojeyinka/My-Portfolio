@@ -23,8 +23,10 @@ render() {
            <span className="w3-xxxlarge w3-margin"><FaTwitter/></span>
            <span className="w3-xxxlarge w3-margin"><IoLogoWhatsapp/></span>
            <hr className="w3-text-black"></hr>
-<div className="w3-padding-jumbo">
-<button className="w3-btn w3-large w3-padding-large" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
+<div className="w3-padding-large">
+<button className="w3-btn w3-large w3-hide-large" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
+
+<button className="w3-btn w3-large w3-padding-large w3-hide-small w3-hide-medium" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
 </div>  </div>
     );
 }
