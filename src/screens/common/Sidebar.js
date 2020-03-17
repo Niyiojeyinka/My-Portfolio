@@ -1,4 +1,8 @@
 import React,{Component} from 'react';
+import profile from "../../assets/profile.jpg";
+import "../../styles/profile.css";
+
+
 
 class Sidebar extends Component {
 constructor(props){
@@ -7,8 +11,12 @@ constructor(props){
 
 render() {
     return (
-       <div className="p-5 display-3">
-           <span className="w3-text-white w3-jumbo">Olaniyi Philip Ojeyinka</span>
+       <div className="w3-padding-large">
+           <div className="w3-text-white w3-bold w3-xxxlarge w3-margin-left w3-margin-top">Olaniyi Philip Ojeyinka</div>
+               <img src={profile} className="profile w3-circle" style={{width:"60%"}}/>
+           <div className="w3-padding w3-justify profileText">
+<p className="w3-xlarge lead" style={{letterSpacing:"1px"}}>I'm a fullstack Software developer who loves creating solutions that work</p>
+           </div>
        </div>
     );
 }

@@ -11,7 +11,7 @@ render() {
 
     return (
       <div className='row min-vh-100'>
-        <div className='col-sm-4 col-md-4 col-lg-3 col-xl-3 bg-info'>
+        <div className='col-sm-4 col-md-4 col-lg-3 col-xl-3 w3-teal'>
 
         <Sidebar/>
 
@@ -19,7 +19,6 @@ render() {
         <div className='col-sm-8 col-md-8 col-lg-9 col-lg-9'>
         <Home/>
 
-        <Sidebar/>
 
         </div>
     </div>
