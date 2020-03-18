@@ -16,7 +16,7 @@ let PieChart =()=>{
     ['Mobile', 15],
   ]}
   options={{
-    title: 'Specialization Chart',
+    title: '',
     slices: [
         {
           color: "#2BB673"
