@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
+import { DiJavascript,DiCodeigniter,DiMysql} from 'react-icons/di';
+import { FaReact,FaNodeJs,FaPhp,FaLaravel} from 'react-icons/fa';
+
+
 
 class Stacks extends Component {
 
     constructor(props){
          super(props);
          this.state ={stacks:[
-             ["Javascript","use javascript programming language to write a beautiful & Scalable Frontend and Backend of web & mobile applications"],
-             ["React","use the React library to write a beautiful  Frontend  of  web applications"],
-             ["NodeJS","use the NodeJS & Express runtime/framework to write a scalable backend  of  web applications"],
-             ["PHP","use PHP programming language to write a beautiful & Scalable Frontend and Backend of web applications"],
-             ["Laravel","use Laravel Framework to write a scalable Backend of web applications"],
-             ["Codeigniter","use Codeigniter Framework to write a scalable Backend of web applications"],
-             ["Sql","use the SQL to write a query databases"],
-             ["ReactNative","use ReactNative framework to create elagants mobile applications"],
+             ["Javascript","use javascript programming language to write a beautiful & Scalable Frontend and Backend of web & mobile applications",<DiJavascript/>,"yellow"],
+             ["React","use the React library to write a beautiful  Frontend  of  web applications",<FaReact/>,"blue"],
+             ["NodeJS","use the NodeJS & Express runtime/framework to write a scalable backend  of  web applications",<FaNodeJs/>,"green"],
+             ["PHP","use PHP programming language to write a beautiful & Scalable Frontend and Backend of web applications",<FaPhp/>,"indigo"],
+             ["Laravel","use Laravel Framework to write a scalable Backend of web applications",<FaLaravel/>,"red"],
+             ["Codeigniter","use Codeigniter Framework to write a scalable Backend of web applications",<DiCodeigniter/>,"pink"],
+             ["Sql","use the SQL to write a query databases",<DiMysql/>,"blue"],
+             ["ReactNative","use ReactNative framework to create elagants mobile applications",<FaReact/>,"indigo"],
             ]};
     }
 
@@ -20,7 +24,9 @@ class Stacks extends Component {
 
     render(){
         let eachStack = this.state.stacks.map((eachElement)=>{
-            return <div className="w3-col s6 l3">{eachElement}
+            return <div className="w3-col s6 l3"><span className={`w3-text-${eachElement[3]} w3-jumbo`}>{eachElement[2]}</span>
+            <p><strong>{eachElement[0]}</strong></p>
+        <p className="w3-tiny justify" style={{width:"50%"}}>{eachElement[1]}</p>
              </div>;
         });
         
