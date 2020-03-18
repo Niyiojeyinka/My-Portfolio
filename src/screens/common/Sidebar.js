@@ -13,6 +13,7 @@ constructor(props){
 render() {
     return (
        <div className="w3-padding-large">
+           <br></br>
            <div className="w3-text-white w3-bold w3-xxxlarge w3-margin-left w3-margin-top">Olaniyi Philip Ojeyinka</div>
                <img src={profile} className="profile w3-circle" style={{width:"60%"}}/>
            <div className="w3-padding w3-justify profileText">

@@ -11,7 +11,7 @@ constructor(props){
 render() {
 
     return (
-      <div className='row max-vh-100'>
+      <div className='row min-vh-100'>
         <div className='col-sm-4 col-md-4 col-lg-3 col-xl-3 w3-teal'>
 
         <Sidebar/>
