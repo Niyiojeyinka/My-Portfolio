@@ -24,7 +24,7 @@ class Stacks extends Component {
 
     render(){
         let eachStack = this.state.stacks.map((eachElement)=>{
-            return <div className="w3-col s6 l3"><span className={`w3-text-${eachElement[3]} w3-jumbo`}>{eachElement[2]}</span>
+            return <div className="w3-col s6 m4 l3"><span className={`w3-text-${eachElement[3]} w3-jumbo`}>{eachElement[2]}</span>
             <p><strong>{eachElement[0]}</strong></p>
         <p className="w3-tiny justify" style={{width:"50%"}}>{eachElement[1]}</p>
              </div>;
