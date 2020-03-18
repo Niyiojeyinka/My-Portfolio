@@ -7,7 +7,7 @@ return (
     <span className="w3-xxxlarge" style={{color:"rgba(39, 28, 28, 0.74)"}}><strong>Software Developer</strong></span>
        <div className="w3-padding-xlarge" style={{letterSpacing:"0.11em"}}> <p className="w3-large w3-justify">
         A Full-stack developer with more than three years experience developing both backend and frontend of a scalable applications.
-        <br></br>Started learning to code around 2014 and by 2016 started working on real-life freelance gigs
+        <br></br>Started learning to code around 2014 and by 2016 started working on real-life freelance gigs.
         </p>
 
         </div>
