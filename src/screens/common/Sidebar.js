@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import profile from "../../assets/profile.jpg";
 import "../../styles/profile.css";
 import { FaGithub,FaLinkedinIn,FaTwitter} from 'react-icons/fa';
-import { IoLogoWhatsapp,IoMdDownload} from 'react-icons/io';
+import {IoMdDownload} from 'react-icons/io';
 
 
 class Sidebar extends Component {
