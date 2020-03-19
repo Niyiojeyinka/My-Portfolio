@@ -5,7 +5,6 @@ import "./styles/w3.css";
 import {
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 class App extends Component {
