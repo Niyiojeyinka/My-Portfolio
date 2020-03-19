@@ -1,4 +1,7 @@
 import React,{Component} from 'react';
+import {  Link } from 'react-router-dom';
+    //import {withRouter} from 'react-router'
+
 class Nav extends Component {
 constructor(props){
     super(props);
@@ -11,8 +14,7 @@ render(){
    <a className="w3-bar-item w3-padding w3-teal w3-text-white w3-round-jumbo w3-margin-left">Home</a> 
 
    <a className="w3-bar-item  w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo w3-margin-left">Resume</a> 
-
-        <a className="w3-bar-item  w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo w3-margin-left">Projects</a> 
+    <span  className="w3-bar-item  w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo w3-margin-left"><Link to="/projects">Projects</Link></span>
         <a className="w3-bar-item w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo">Articles</a> 
 
         </div></header>);

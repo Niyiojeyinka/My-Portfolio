@@ -3,7 +3,6 @@ import Home from './screens/home/Index';
 import Projects from './screens/projects/Index';
 import "./styles/w3.css";
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -17,15 +16,11 @@ constructor(props){
 render() {
 
     return (
-      <Router> <Switch>
-      <Route path="/projects">
-        <Projects />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
+      <Switch>
+      <Route path="/projects" component={Projects}/>
+      <Route exact path="/" component={Home}/>
     </Switch>
-      </Router>
+    
     );
 }
 
