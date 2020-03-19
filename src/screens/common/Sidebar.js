@@ -13,8 +13,7 @@ constructor(props){
 render() {
     return (
        <div className="w3-padding-large">
-           <br></br>
-           <div className="w3-text-white w3-bold w3-xxxlarge w3-margin-left w3-margin-top">Olaniyi Philip Ojeyinka</div>
+           <br></br><br></br>
                <img src={profile} className="profile w3-circle" style={{width:"60%"}}/>
            <div className="w3-padding w3-justify profileText">
 <p className="w3-large lead" style={{letterSpacing:"1px"}}>I'm a fullstack Software developer who loves creating solutions that work</p>
@@ -22,7 +21,6 @@ render() {
            <span className="w3-xxlarge w3-margin"><FaGithub/></span>
            <span className="w3-xxlarge w3-margin"><FaLinkedinIn/></span>
            <span className="w3-xxlarge w3-margin"><FaTwitter/></span>
-           <span className="w3-xxlarge w3-margin"><IoLogoWhatsapp/></span>
            <hr className="w3-text-black"></hr>
 <div className="w3-padding-large">
 <button className="w3-btn w3-large w3-hide-large" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
