@@ -14,14 +14,11 @@ render() {
         <div>
         <div className="w3-row">
             <Nav/>
-            <div className="w3-half">
+            <div className="">
         <About/>
 
             </div>
-            <div className="w3-half">
-        <PieChart/>
-
-            </div>
+            
            
 
         </div>
