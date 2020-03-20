@@ -12,7 +12,7 @@ class Stacks extends Component {
              ["Javascript","use javascript to write a beautiful & Scalable Frontend and Backend of web & mobile applications",<DiJavascript/>,"yellow"],
              ["React","use the React library to write a beautiful  Frontend  of  web applications",<FaReact/>,"blue"],
              ["NodeJS","use the NodeJS & Express runtime/framework to write a scalable backend  of  web applications",<FaNodeJs/>,"green"],
-             ["PHP","use PHP programming language to write a beautiful & Scalable Frontend and Backend of web applications",<FaPhp/>,"indigo"],
+             ["PHP","use PHP programming language to write a Scalable,Well-Planned Backend of web applications",<FaPhp/>,"indigo"],
              ["Laravel","use Laravel Framework to write a scalable Backend of web applications",<FaLaravel/>,"red"],
              ["Codeigniter","use Codeigniter Framework to write a scalable Backend of web applications",<DiCodeigniter/>,"pink"],
              ["Sql","use the SQL to write a query databases",<DiMysql/>,"blue"],
