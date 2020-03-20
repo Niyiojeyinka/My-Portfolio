@@ -25,7 +25,7 @@ render() {
 <div className="w3-padding-large">
 <button className="w3-btn w3-large w3-hide-large" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
 
-<button className="w3-btn w3-large w3-padding w3-hide-small w3-hide-medium" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</button>
+<a href='/resume.pdf' className="w3-btn w3-large w3-padding w3-hide-small w3-hide-medium w3-text-white" style={{backgroundColor:"rgb(0,150,110)"}}><IoMdDownload/> Download resume</a>
 </div>  </div>
     );
 }
