@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Nav from '../common/Nav';
 import Sidebar from '../common/Sidebar';
-//import PieChart from './PieChart';
+import ProjectsList from './ProjectList';
 
 class Projects extends Component {
 constructor(props){
@@ -19,11 +19,12 @@ render() {
 
        </div>
        <div className='col-sm-8 col-md-8 col-lg-9 col-lg-9'>
-       <div className="w3-row">
+       <div className="w3-row ">
             <Nav/>
-            {
-      /*projects view here*/          
-            }
+            <br></br><br></br><br></br>
+            <div className="w3-center">
+            <span className="w3-margin-top w3-xxxlarge" style={{color:"rgba(39, 28, 28, 0.74)"}}>Projects</span>
+            </div>  <ProjectsList/>
            
          </div>
 
