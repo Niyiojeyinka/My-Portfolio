@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import Home from './screens/home/Index';
 import Projects from './screens/projects/Index';
+import Articles from './screens/articles/Index';
 import "./styles/w3.css";
 import {
   Switch,
@@ -16,6 +17,7 @@ render() {
 
     return (
       <Switch>
+      <Route path="/articles" component={Articles}/>
       <Route path="/projects" component={Projects}/>
       <Route exact path="/" component={Home}/>
     </Switch>
