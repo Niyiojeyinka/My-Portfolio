@@ -10,7 +10,7 @@ return (
         A Full-stack developer with more than three years experience developing both backend and frontend of a scalable applications.
         <br></br>Started learning to code around 2014 and by 2016 started working on real-life freelance gigs.
         </p>
-        <button className="w3-btn w3-large w3-padding w3-margin-left w3-round" style={{backgroundColor:"rgb(0, 150, 110)"}} > <FaGithub/> <span className="w3-small"> Visit Github</span></button>
+        <a href="https://www.github.com/niyiojeyinka" className="w3-btn w3-large w3-padding w3-margin-left w3-round w3-text-white" style={{backgroundColor:"rgb(0, 150, 110)"}} > <FaGithub/> <span className="w3-small"> Visit Github</span></a>
 
         </center>
 
