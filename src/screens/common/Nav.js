@@ -7,7 +7,7 @@ constructor(props){
     this.state= {
         menus:[{
             name:"Home",to:"/"},
-           { name:"Resume",to:"/resume.pdf"},
+          // { name:"Resume",to:"/resume.pdf"},
            { name:"Projects",to:"/projects"},
            { name:"Articles",to:"/articles"},
 
