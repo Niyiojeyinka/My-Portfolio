@@ -16,8 +16,8 @@ constructor(props){
 }
 render(){
     let projects = this.state.projects.map(
-        (project)=>{
-       return <div className="w3-card-4 w3-margin w3-col l5 m5 s12 w3-display-container">
+        (project,index)=>{
+       return <div key={index} className="w3-card-4 w3-margin w3-col l5 m5 s12 w3-display-container">
            <span className="w3-padding w3-teal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
            <img src={`${project.image}`} className="" style={{maxHeight:"150px",width:"100%"}}></img>
            <div className="w3-padding"><p>{`${project.description}`}</p></div>

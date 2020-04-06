@@ -15,8 +15,8 @@ constructor(props){
 }
 
 render() {
-    let iconsLink = this.state.icons.map((eachIcon)=>{
-return <span>
+    let iconsLink = this.state.icons.map((eachIcon,index)=>{
+return <span key={index}>
     <a href={`${eachIcon.link}`}> <span className="w3-xxlarge w3-margin">{eachIcon.icon}</span></a>
 </span>
 

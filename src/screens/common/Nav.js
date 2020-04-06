@@ -16,8 +16,8 @@ constructor(props){
 }
 
 render(){
-    let myMenus = this.state.menus.map((eachMenu)=>
-<Link to={`${eachMenu.to}`}><span  className="w3-bar-item  w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo w3-margin-left">{eachMenu.name}</span></Link>
+    let myMenus = this.state.menus.map((eachMenu,index)=>
+<Link key={index} to={`${eachMenu.to}`}><span  className="w3-bar-item  w3-padding w3-hover-teal w3-hover-text-white w3-round-jumbo w3-margin-left">{eachMenu.name}</span></Link>
 
     );
     return (
