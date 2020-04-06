@@ -23,8 +23,8 @@ class Stacks extends Component {
     
 
     render(){
-        let eachStack = this.state.stacks.map((eachElement)=>{
-            return <div className="col-xl-3 col-md-4 col-lg-4 w3-col s6"><span className={`w3-text-${eachElement[3]} w3-jumbo`}>{eachElement[2]}</span>
+        let eachStack = this.state.stacks.map((eachElement,index)=>{
+            return <div key={index} className="col-xl-3 col-md-4 col-lg-4 w3-col s6"><span className={`w3-text-${eachElement[3]} w3-jumbo`}>{eachElement[2]}</span>
             <p><strong>{eachElement[0]}</strong></p>
         <p className="w3-tiny justify" style={{width:"50%"}}>{eachElement[1]}</p>
              </div>;
