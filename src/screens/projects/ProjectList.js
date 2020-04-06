@@ -7,11 +7,10 @@ class ProjectList extends Component {
 constructor(props){
   super(props);
   this.state = {projects:[
-    {name:"My Portfolio",description:"My portfolio created with React,Bootstrap and CSS framework",image:"https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/05/AdSense-and-Other-Ads.jpg",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
-    {name:"AdNetwork",description:"An Online Advertising Network Server",image:"https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/05/AdSense-and-Other-Ads.jpg",link:"",github:"https://www.github.com/niyiojeyinka",stacks:["PHP","MYSQL"]},
-    {name:"AWS",description:"Amazon Web Services US",image:"https://d1nzzttg89jj6.cloudfront.net/assets/articles/1575354413/klarna-signs-deal-with-aws-1575354413.png",link:"",github:"",stacks:["PHP","MYSQL"]},
-    {name:"stripe",description:"An Online Payment Service",image:"https://www.foxnetsoft.com/images/thumbs/0005839_stripe-direct-payment-credit-card.png",link:"",github:"",stacks:["PHP","MYSQL"]},
-
+    
+    {name:"Pryper Q Bet",description:"A Question Betting Web Apllication that let people bet on Questions from topics they care about",image:"http://localhost/pryper/assets/images/prypersocialimage.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
+    {name:"AdNetwork",description:"An Online Advertising Network Server for publishers and advertisers",image:"http://localhost/pryper/assets/images/advertiseradtype.png",link:"",github:"https://www.github.com/niyiojeyinka",stacks:["PHP","MYSQL"]},
+    {name:"My Portfolio",description:"My portfolio website created with React,Bootstrap and CSS framework",image:"http://localhost/pryper/assets/images/portfolio.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
 ]};
 }
 render(){
