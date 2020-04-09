@@ -7,9 +7,7 @@ class Articles extends Component {
 constructor(props){
   super(props);
   this.state = {articles:[
-    {title:"A new type of AdNetwork",excerpt:"An Online Advertising Network Server",image:"https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/05/AdSense-and-Other-Ads.jpg",link:""},
-    {title:"A new type of AdNetwork",excerpt:"An Online Advertising Network Server",image:"https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/05/AdSense-and-Other-Ads.jpg",link:""},
-    {title:"A new type of AdNetwork",excerpt:"An Online Advertising Network Server",image:"https://growtraffic-bc85.kxcdn.com/blog/wp-content/uploads/2019/05/AdSense-and-Other-Ads.jpg",link:""},
+    {title:"The Jude way to recursion",excerpt:"An article that use dream analogy to explain recursion",image:"http://localhost/pryper/assets/images/projects/rec.png",link:""},
 
 ]};
 }
