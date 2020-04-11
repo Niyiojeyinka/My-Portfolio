@@ -8,6 +8,8 @@ constructor(props){
   super(props);
   this.state = {articles:[
     {title:"The Jude way to recursion",excerpt:"An article that use dream analogy to explain recursion",image:"http://localhost/pryper/assets/images/projects/rec.png",link:""},
+    {title:"Using Laravel Guard for multi-auth",excerpt:"talks about using guard in laravel",image:"http://localhost/pryper/assets/images/projects/laravel.png",link:""},
+    {title:"Create a multi-site website",excerpt:"An article that teach how to create a multi-site website in CI",image:"http://localhost/pryper/assets/images/projects/ciblog.png",link:""},
 
 ]};
 }
