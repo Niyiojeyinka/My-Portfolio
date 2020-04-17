@@ -16,7 +16,7 @@ render(){
     let articlesList = this.state.articles.map(
         (article,index)=>{
        return <div key={index} className="w3-card-4 w3-margin w3-col l3 m4 s12">
-           <img src={`${article.image}`} className="" style={{maxHeight:"150px",width:"100%"}}></img>
+           <img src={`${article.image}`} alt={article.title} className="" style={{maxHeight:"150px",width:"100%"}}></img>
            <div className="w3-padding">
                <strong>{`${article.title}`}</strong>
                <p>{`${article.excerpt}`}</p></div>

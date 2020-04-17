@@ -26,7 +26,7 @@ render(){
         (project,index)=>{
        return <div key={index} className="w3-card-4 w3-margin w3-col l5 m5 s12 w3-display-container">
            <span className="w3-padding w3-https://i.ibb.co/nRL91yj/advertiseradtype.pngteal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
-           <img src={`${project.image}`} className="" style={{maxHeight:"150px",width:"100%"}}></img>
+           <img src={`${project.image}`} alt={project.name} className="" style={{maxHeight:"150px",width:"100%"}}></img>
            <div className="w3-padding w3-small"><p>{`${project.description}`}</p></div>
            <div className="w3-row w3-small">
 <div className='w3-col l6 m6 s6 w3-padding-small w3-center w3-border-right w3-border-gray'>
