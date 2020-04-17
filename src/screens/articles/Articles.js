@@ -6,9 +6,9 @@ class Articles extends Component {
 constructor(props){
   super(props);
   this.state = {articles:[
-    {title:"The Jude way to recursion",excerpt:"An article that use dream analogy to explain recursion",image:"http://localhost/pryper/assets/images/projects/rec.png",link:""},
-    {title:"Using Laravel Guard for multi-auth",excerpt:"talks about using guard in laravel",image:"http://localhost/pryper/assets/images/projects/laravel.png",link:""},
-    {title:"Create a multi-site website",excerpt:"An article that teach how to create a multi-site website in CI",image:"http://localhost/pryper/assets/images/projects/ciblog.png",link:""},
+    {title:"The Jude way to recursion",excerpt:"An article that use dream analogy to explain recursion",image:"http://niyiojeyinka.byethost7.com/projects/rec.png",link:""},
+    {title:"Using Laravel Guard for multi-auth",excerpt:"talks about using guard in laravel",image:"http://niyiojeyinka.byethost7.com/projects/laravel.png",link:""},
+    {title:"Create a multi-site website",excerpt:"An article that teach how to create a multi-site website in CI",image:"http://niyiojeyinka.byethost7.com/projects/ciblog.png",link:""},
 
 ]};
 }
