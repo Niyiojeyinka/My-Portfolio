@@ -6,9 +6,7 @@ import Sidebar from '../common/Sidebar';
 import Stacks from './Stacks';
 
 class Home extends Component {
-constructor(props){
-    super(props);
-}
+
 
 render() {
     return (

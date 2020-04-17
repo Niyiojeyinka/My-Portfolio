@@ -4,9 +4,7 @@ import Sidebar from '../common/Sidebar';
 import ProjectsList from './ProjectList';
 
 class Projects extends Component {
-constructor(props){
-    super(props);
-}
+
 
 render() {
     return (
