@@ -17,7 +17,7 @@ constructor(props){
     {name:"E-voting",description:"An online voting web application software Backend (password:admin,username:admin) login link:{domain}/index.php/officer .",image:"http://niyiojeyinka.byethost7.com/projects/vote.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"Social Media",description:"A Social Media web application for users to meet and chat.",image:"http://niyiojeyinka.byethost7.com/projects/sm.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"CSV Tools",description:"A developer PHP class to generate a CSV file.",image:"http://niyiojeyinka.byethost7.com/projects/csv.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
-    {name:"Business Listing",description:"A Classic Business directory website(password:admin,email:admin@gmail.com)",image:"http://niyiojeyinka.byethost7.com/projects/listing.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/PHPonlineCBT-",stacks:["PHP","MYSQL"]},
+    {name:"Business Listing",description:"A Classic Business directory website url/admin (password:admin,email:admin@gmail.com)",image:"http://niyiojeyinka.byethost7.com/projects/listing.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/PHPonlineCBT-",stacks:["PHP","MYSQL"]},
 
 ]};
 }
