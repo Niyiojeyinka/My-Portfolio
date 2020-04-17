@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { FaGithub,FaEye} from 'react-icons/fa';
-import { GiClick} from 'react-icons/gi';
+import {FaEye} from 'react-icons/fa';
 
 
 class Articles extends Component {
