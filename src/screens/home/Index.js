@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Nav from '../common/Nav';
 import About from './About';
 import Sidebar from '../common/Sidebar';
-import PieChart from './PieChart';
+//import PieChart from './PieChart';
 import Stacks from './Stacks';
 
 class Home extends Component {
