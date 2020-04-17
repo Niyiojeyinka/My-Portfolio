@@ -24,7 +24,7 @@ return <span key={index}>
     return (
        <div className="w3-padding-large">
            <br></br><br></br>
-               <img src={profile} className="profile w3-circle" style={{width:"60%"}}/>
+               <img src={profile} alt="Philip Ojeyinka" className="profile w3-circle" style={{width:"60%"}}/>
            <div className="w3-padding w3-justify profileText">
 <p className="w3-large lead" style={{letterSpacing:"1px"}}>I'm a fullstack Software developer who loves creating solutions that work</p>
            </div>
