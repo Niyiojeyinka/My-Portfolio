@@ -14,10 +14,10 @@ constructor(props){
     {name:"Pryper Q Bet",description:"A Question Betting Web Apllication that let people bet on Questions from topics they care about (password:user,email:user@gmail.com)",image:"http://niyiojeyinka.byethost7.com/projects/py.png",link:"http://niyiojeyinka.byethost7.com/bet",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"Page Chat",description:"A One page Chat  web application written in PHP ,JAVSCRIPT and MYSQL",image:"http://niyiojeyinka.byethost7.com/projects/opc.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"My Portfolio",description:"My portfolio website created with React,Bootstrap CSS framework",image:"http://niyiojeyinka.byethost7.com/projects/portfolio.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
-    {name:"E-voting",description:"An online voting web application software Backend (password:admin,username:admin) login link:{domain}/index.php/officer .",image:"http://niyiojeyinka.byethost7.com/projects/vote.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
+    {name:"E-voting",description:"An online voting web application software Backend (password:admin,username:admin) login link:{domain}/index.php/officer .",image:"http://niyiojeyinka.byethost7.com/projects/vote.png",link:"http://niyiojeyinka.byethost7.com/vote",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"Social Media",description:"A Social Media web application for users to meet and chat.",image:"http://niyiojeyinka.byethost7.com/projects/sm.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
     {name:"CSV Tools",description:"A developer PHP class to generate a CSV file.",image:"http://niyiojeyinka.byethost7.com/projects/csv.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/My-Portfolio.git",stacks:["PHP","MYSQL"]},
-    {name:"Business Listing",description:"A Classic Business directory website url/admin (password:admin,email:admin@gmail.com)",image:"http://niyiojeyinka.byethost7.com/projects/listing.png",link:"https://niyiojeyinka.heroku.com",github:"https://github.com/Niyiojeyinka/PHPonlineCBT-",stacks:["PHP","MYSQL"]},
+    {name:"Business Listing",description:"A Classic Business directory website url/admin (password:admin,email:admin@gmail.com)",image:"http://niyiojeyinka.byethost7.com/projects/listing.png",link:"http://cbdsonline.herokuapp.com",github:"https://github.com/Niyiojeyinka/Business-Listing.git",stacks:["PHP","MYSQL"]},
 
 ]};
 }
@@ -25,7 +25,7 @@ render(){
     let projects = this.state.projects.map(
         (project,index)=>{
        return <div key={index} className="w3-card-4 w3-margin w3-col l5 m5 s12 w3-display-container">
-           <span className="w3-padding w3-https://i.ibb.co/nRL91yj/advertiseradtype.pngteal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
+           <span className="w3-padding w3-teal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
            <img src={`${project.image}`} alt={project.name} className="" style={{maxHeight:"150px",width:"100%"}}></img>
            <div className="w3-padding w3-small"><p>{`${project.description}`}</p></div>
            <div className="w3-row w3-small">
