@@ -22,6 +22,10 @@ render() {
             <br></br><br></br><br></br>
             <div className="w3-center">
             <span className="w3-margin-top w3-xxxlarge" style={{color:"rgba(39, 28, 28, 0.74)"}}>Projects</span>
+            <br></br>
+        <span className="w3-small w3-text-gray"><b>Notice :</b>Some functionality like (dynamic
+         creation of a subdomain) may not be available on the demo due to hosting/server limitation</span>
+        <br></br>
             </div>  <ProjectsList/>
            
          </div>

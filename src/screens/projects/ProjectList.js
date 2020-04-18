@@ -45,6 +45,7 @@ render(){
     return (
      <div className="w3-row w3-margin-top w3-padding-top">
         {projects}
+
      </div>
 
     );
