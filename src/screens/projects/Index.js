@@ -4,7 +4,9 @@ import Sidebar from '../common/Sidebar';
 import ProjectsList from './ProjectList';
 
 class Projects extends Component {
-
+    componentDidMount(){
+        document.title= "Olaniyi Philip Ojeyinka | Projects";
+    }
 
 render() {
     return (

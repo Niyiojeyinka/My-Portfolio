@@ -5,6 +5,9 @@ import Articles from './Articles';
 
 class Projects extends Component {
 
+    componentDidMount(){
+        document.title= "Olaniyi Philip Ojeyinka | Articles";
+    }
 
 render() {
     return (
