@@ -44,7 +44,7 @@ class Articles extends Component {
         <div
           key={index}
           className="w3-card-4 w3-margin"
-          style="max-width: 300px"
+          style={{ maxWidth: '300px' }}
         >
           <img
             src={`${article.image}`}
