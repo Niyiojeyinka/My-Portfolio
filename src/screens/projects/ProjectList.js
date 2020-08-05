@@ -113,7 +113,8 @@ class ProjectList extends Component {
       return (
         <div
           key={index}
-          className="w3-card-4 w3-margin w3-col l5 m5 s12 w3-display-container"
+          className="w3-card-4 w3-margin w3-display-container"
+          style={{ maxWidth: '500px' }}
         >
           <span className="w3-padding w3-teal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
           <img
@@ -152,7 +153,11 @@ class ProjectList extends Component {
         </div>
       )
     })
-    return <div className="w3-row w3-margin-top w3-padding-top">{projects}</div>
+    return (
+      <div className="d-flex flex-wrap w3-margin-top w3-padding-top">
+        {projects}
+      </div>
+    )
   }
 }
 export default ProjectList
