@@ -7,6 +7,9 @@ import Stacks from './Stacks';
 
 class Home extends Component {
 
+    componentDidMount(){
+        document.title= "Olaniyi Philip Ojeyinka | Software Developer";
+    }
 
 render() {
     return (

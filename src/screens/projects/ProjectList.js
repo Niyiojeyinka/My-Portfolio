@@ -17,6 +17,16 @@ class ProjectList extends Component {
           stacks: ['PHP', 'MYSQL'],
         },
         {
+          name: 'Parliament E-voting',
+          description:
+            'A n Evoting Software for a local parliament of SA,(PS: Demo & source not available)',
+          image:
+            'https://res.cloudinary.com/open-source/image/upload/v1598150413/svote_j3xder.png',
+          link: 'https://github.com/Niyiojeyinka',
+          github: 'https://github.com/Niyiojeyinka',
+          stacks: ['PHP', 'MYSQL'],
+        },
+        {
           name: 'Web Creator',
           description:
             'An Online theme based web creator and designer that let users create their own website in few clicks(password:user,email:user@gmail.com)',
