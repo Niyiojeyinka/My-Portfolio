@@ -124,7 +124,7 @@ class ProjectList extends Component {
         <div
           key={index}
           className="w3-card-4 w3-margin w3-display-container"
-          style={{ maxWidth: '500px' }}
+          style={{ maxWidth: '380px' }}
         >
           <span className="w3-padding w3-teal w3-bold w3-display-topleft w3-display-hover">{`${project.name}`}</span>
           <img
